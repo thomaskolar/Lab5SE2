@@ -16,7 +16,7 @@ public class Main {
         Set<City> city = new HashSet<>();
         try {
             //Create file class, text file as input
-            File myObj = new File("text.txt");
+            File myObj = new File("citiesInfo.txt");
             Scanner myReader = new Scanner(myObj);
             //read each line of text file
             while(myReader.hasNextLine()) {
