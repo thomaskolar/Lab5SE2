@@ -3,6 +3,7 @@ package com.mycompany.teamprojectlab5;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -25,14 +26,17 @@ public class Main {
                 City c = new City(data,Arrays.asList("roads"));
                 //prints the hashSet
                 System.out.println(c.print());
-                
+                c.writer();
             }
             myReader.close();
             //If file isn't found it exits
         } catch (FileNotFoundException e) {
             System.out.println("File not found.");
             e.printStackTrace();
-        } 
+        } catch (IOException ee) {
+            System.out.println("Can't write.");
+            ee.printStackTrace();
+        }
     }
 }
 
