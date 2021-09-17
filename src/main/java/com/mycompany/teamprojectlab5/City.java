@@ -1,6 +1,9 @@
 
 package com.mycompany.teamprojectlab5;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
@@ -21,6 +24,14 @@ public class City {
         return "City: " + name + "\n" + "Roads in " + name + ": " + roads;
     }
 
+    public void writer() 
+  throws IOException {
+    BufferedWriter writer = new BufferedWriter(new FileWriter("text.txt"));
+    writer.write(print());
+    
+    writer.close();
+}
+    
     @Override
     public int hashCode() {
         return Objects.hash(name, roads);
