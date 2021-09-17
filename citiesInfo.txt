@@ -1,0 +1,123 @@
+Fort Worth
+Dallas
+Stephenville
+Granbury
+Abilene
+Cisco
+Dublin
+Mineral Wells
+Glen Rose
+Arlington
+
+//destination from fort worth to every other city
+All Roads in Fort Worth: 1-30 W, I-20 W, US-180 W, US-67 s, Chisholm Trail Pkwy, I-30
+32.4 mi, Dallas 	I-30 E
+78.1 mi, Stephenville	I-20 W, US-281 S
+38.2 mi, Granbury	US-377 S
+149.7 mi, Abilene	I-20 W
+105.5 mi, Cisco		I-20 W
+91.0 mi, Dublin		I-20 W, US-281 S
+51.1 mi, Mineral Wells	1-30 W, I-20 W, US-180 W
+43.67 mi, Glen Rose	chisholm trail and US-67 s
+15.1 mi, Arlington	I-30
+
+//Destination from Dallas to every other city
+Roads:
+32.4 mi, Fort Worth	I-30 E
+109.1 mi, Stephenville	I-30 W, I-20 W, US-281 S
+69.4 mi, Granbury	I-30 W, US-377 S
+180.6 mi, Abilene	I-30 W, I-20 W
+136.4 mi, Cicso		I-30 W, I-20 W
+121.9 mi, Dublin	I-30 W, I-20 W
+82.0 mi, Mineral Wells	I-30 W
+85.3 mi, Glen Rose	I-30 W, Chisholm Trail Pkwy, US-67 S
+20.5 mi, Arlington	I-30 W
+
+//Destination from Stephenville to every other city
+Roads:
+78.1 mi, Fort Worth	I-20 W, US-281 S
+109.1 mi, Dallas		I-30 W, I-20 W, US-281 S
+25.1 mi, Granbury	US-377 N
+96.3 mi, Abilene	I-20 W
+52.1 mi, Cisco		FM 8 W, Ranch RD 2214
+15.1 mi, Dublin		FM 847 W
+42.5 mi, Mineral Wells	US-281 N
+31.0 mi, Glen Rose	US-67 N
+92.1 mi, Arlington	US-281 N, I-20 E, I-30 E
+
+//Destination from Granbury to every other city
+38.2 mi, Fort Worth	US-377 S
+69.4 mi, Dallas		I-30 W, US-377 S
+25.1 mi, Stephenville	US-377 N
+123.1 mi, Abilene	I-20 W
+78.9 mi, Cisco		FM 4 N, I-20 W
+44.9 mi, Dublin		US-377 S
+43.1 mi, Mineral Wells	FM 4 N, US-281 N
+17.1 mi, Glen Rose	Tx-144 S
+64.2 mi, Arlington	FM 51 N, I-30 E
+
+//Destination from Abilene to every other city
+149.7 mi, Fort Worth	I-20 W
+180.6 mi, Dallas	I-30 W, I-20 W
+96.3 mi, Stephenville	I-20 W
+123.1 mi, Granbury	I-20 W
+46.9 mi, Cisco		I-20 E
+94.2 mi, Dublin		I-20 E, HWY 6 S
+114.6 mi, Mineral Wells	I-20 E
+127.2 mi, Glen Rose	I-20 E
+164.1 mi, Arlington	I-20 E
+
+//Destination from Cisco to every other city
+105.5 mi, Fort Worth	I-20 W
+136.4 mi, Dallas	I-30 W, I-20 W
+52.1 mi, Stephenville	FM 8 W, Ranch RD 2214
+78.9 mi, Granbury	FM 4 N, I-20 W
+46.9 mi, Abilene	I-20 E
+49.6 mi, Dublin		Hwy 6 S
+69.9 mi, Mineral Wells	I-20 E
+82.5 mi, Glen Rose	US-67 N
+119.5 mi, Arlington	I-20 E
+
+//Destination from Dublin to every other city
+91.0 mi, Fort Worth	I-20 W, US-281 S
+121.9 mi, Dallas	I-30 W, I-20 W
+15.1 mi, Stephenville	FM 847 W
+44.9 mi, Granbury	US-377 S
+94.2 mi, Abilene	I-20 E, HWY 6 S
+49.6 mi, Cisco		Hwy 6 S
+55.2 mi, Mineral Wells	US-281 N
+44.1 mi, Glen Rose	US-67 N
+104.8 mi, Arlington	I-20 E, I-30 E
+
+//Destination from Mineral Wells to every other city
+51.1 mi, Fort Worth	1-30 W, I-20 W, US-180 W
+82.0 mi, Dallas		I-30 W
+42.5 mi, Stephenville	US-281 N
+43.1 mi, Granbury	FM 4 N, US-281 N
+114.6 mi, Abilene	I-20 E
+55.2 mi, Dublin		US-281 N
+69.9 mi, Mineral Wells	I-20 E
+57.1 mi, Glen Rose	US-281 S
+65.0 mi, Arlington	US-180 E, I-30 E
+
+//Destination from Glen Rose to every other city
+43.67 mi, Fort Worth	chisholm trail and US-67 s
+85.3 mi, Dallas	I-30 W, Chisholm Trail Pkwy, US-67 S
+31.0 mi, Stephenville	US-67 N
+17.1 mi, Granbury	Tx-144 S
+127.2 mi, Abilene	I-20 E
+82.5 mi, Cisco		US-67 N
+44.1 mi, Dublin		US-67 N
+57.1 mi, Mineral Wells	US-281 S
+68.4 mi, Arlington	US-67 N, Chisholm Trail Pkwy
+
+//Destination from Arlington to every other city
+15.1 mi, Fort Worth	I-30
+20.5 mi, Dallas		I-30 W
+92.1 mi, Stephenville	US-281 N, I-20 E, I-30 E
+64.2 mi, Granbury       FM 51 N, I-30 E
+164.1 mi, Abilene	I-20 E
+119.5 mi, Cisco		I-20 E
+104.8 mi, Dublin	I-20 E, I-30 E
+65.0 mi, Mineral Wells	US-180 E, I-30 E
+68.4 mi, Glen Rose	US-67 N, Chisholm Trail Pkwy
